@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  border-right: 1px solid #222;
+  border-left: 1px solid #222;
+  max-width: 600px;
+  margin: auto;
+  background-color: rgb(204, 204, 255);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', monospace;
+}
+.navbar .showMenu li {
+  list-style: none;
+}
+.navbar .showMenu {
+  width: 100%;
+  list-style: none;
+  background: #333;
+  margin-bottom: 10px;
+}
+.navbar .showMenu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+.navIcons {
+  height: 26px;
+  width: 32px;
+}
+
+.section1 {
+  background-color: white;
+  padding:10px;
+}
+.industryBtn {
+  background-color: rgb(255, 24, 24);
+  width: 6rem;
+}
+
+.jamieKlein, .jamieKleinImg {
+  width: 100px;
+}
+.toyotaImages {
+  max-width: 100%;
+}
