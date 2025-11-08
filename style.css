@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  
   border-right: 1px solid #222;
   border-left: 1px solid #222;
   max-width: 600px;
   margin: auto;
   background-color: rgb(204, 204, 255);
+  font-family: 'poppins';
+  color: #444;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Condensed', monospace;
+  font-family: 'Roboto', monospace;
 }
 .navbar .showMenu li {
   list-style: none;
@@ -29,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 .navIcons {
   height: 26px;
@@ -38,16 +41,45 @@ h1, h2, h3, h4, h5, h6 {
 
 .section1 {
   background-color: white;
-  padding:10px;
+  padding:15px;
 }
 .industryBtn {
   background-color: rgb(255, 24, 24);
-  width: 6rem;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.Headings h1 {
+  margin: 10px 0;
 }
 
-.jamieKlein, .jamieKleinImg {
-  width: 100px;
+.Headings p {
+  color: #777;
 }
+.jamieKlein {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0 30px;
+}
+
+span {
+  color: rgb(0, 65, 186);
+  opacity: 70%;
+}
+.jamieKleinImg {
+  width: 50px;
+  border-radius: 50%;
+}
+
 .toyotaImages {
   max-width: 100%;
+}
+
+.toyotadiv {
+  font-size: small;
+  margin: 25px 0;
 }
