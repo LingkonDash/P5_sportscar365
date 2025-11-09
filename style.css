@@ -19,16 +19,28 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', monospace;
 }
-.navbar .showMenu li {
+.navbar .showMenu1 li , .showMenu2 li{
   list-style: none;
 }
-.navbar .showMenu {
+.navbar .showMenu1 {
+  position: fixed; 
+  max-width: 600px;
   width: 100%;
   list-style: none;
   background: #333;
   margin-bottom: 10px;
+  z-index: 100;
 }
-.navbar .showMenu ul {
+.navbar .showMenu2 {
+  position: relative; 
+  max-width: 600px;
+  width: 100%;
+  list-style: none;
+  background: #333;
+  margin-bottom: 10px;
+  z-index: -100;
+}
+.navbar .showMenu1 ul, .showMenu2 ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
