@@ -81,6 +81,12 @@ h1, h2, h3, h4, h5, h6 {
 span {
   color: rgb(0, 65, 186);
   opacity: 70%;
+  transition: 0.2s ease;
+}
+span:hover {
+  color: red;
+  opacity: 70%;
+  cursor: pointer;
 }
 .jamieKleinImg {
   width: 50px;
@@ -95,3 +101,89 @@ span {
   font-size: small;
   margin: 25px 0;
 }
+
+.userInfo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  border: 3px solid #cccccc83;
+  color: #777;
+  border-radius: 10px;
+  padding: 0 40px;
+}
+
+.userInfo .favicon {
+  width: 90px;
+  margin-top: 25px;
+}
+.userInfo h2{
+  font-size: xx-large;
+  margin-bottom: 8px;
+}
+.userInfo h2 a{
+  color: #333;
+}
+
+.userInfo .lastChild {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.userInfo .lastChild a{
+  color: #777;
+  margin-bottom: 35px;
+}
+
+.userInfo .subsForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 20px 0;
+}
+
+.userInfo .subsForm .subsInput {
+  border: 3px solid rgb(11, 141, 206);
+  border-radius: 10px 0 0 10px;
+  background-color: whitesmoke;
+  height: 2.5rem;
+  width: 15rem;
+  padding: 0 15px;
+  font-size: large;
+}
+.userInfo .subsForm .subsInput::placeholder {
+  color: #bebebe;
+}
+
+.userInfo .subsForm .subsInput:focus {
+  box-shadow: 0 0 5px rgb(14, 169, 247);
+  outline: none;
+}
+
+.userInfo .subsForm .subsBtn {
+  border: 1px solid rgb(11, 141, 206);
+  border-radius: 0 10px 10px 0;
+  background-color: rgb(11, 141, 206);
+  height: 2.5rem;
+  width: 7rem;
+  color: rgb(245, 245, 245);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.userInfo .subStack {
+  height: 15px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  filter: grayscale(1);
+  opacity: 70%;
+  transition: 0.1s ease;
+}
+.userInfo a .subStack:hover {
+  filter: none;
+  opacity: 90%;
+}
+
